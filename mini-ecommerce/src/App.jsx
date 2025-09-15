@@ -13,6 +13,7 @@ function App() {
         <Route path="products" element={<ProductListPage />} />
         {/* TODO 1: สร้าง Dynamic Route สำหรับหน้ารายละเอียดสินค้า */}
         {/* Path ควรเป็น /products/:productId */}
+        <Route path="products/:productId" element={<ProductDetailPage />} />
         
         <Route path="cart" element={<CartPage />} />
       </Route>
